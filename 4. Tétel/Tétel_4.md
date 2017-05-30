@@ -56,6 +56,7 @@ Ha G gráf egyszerű, síkbarajzolható és minden körének a hossza legalább 
 ```
 A kuratowski-gráfok nem síkbarajzolhatóak
 ```
+<img src="./kepek/kuratowski.png" width="512" align="middle">
 ### Bizonyítás
 ```
 Először is tfh. K5 síkbarajzolható. Ekkor teljesülnie kell, hogy e <= 3n-6.
