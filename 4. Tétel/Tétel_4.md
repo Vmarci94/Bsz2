@@ -79,6 +79,8 @@ Egy gráf síkbarajzolhatóságán nyílván nem változtat, hogy ha:
 G és H gráfok topológikusan izomorfak, ha a fent említett transzformációk ismételt alkalmazásával
 izomorf gráfokba transzformálhatóak.
 ```
+<img src="./kepek/topizomorf.png" width="512" align="bottom">
+
 # Tétel: Kuratowski
 ```
 Egy gráf akkor és csak akkor síkbarajzolható, ha nem tartalmaz olyan részgráfot,
