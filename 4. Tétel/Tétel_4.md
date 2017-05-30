@@ -69,6 +69,16 @@ Ha feltesszük, hogy K33 síkbarajzolható, akkor teljesülnie kell, hogy e <= 2
 ellentmondás mert K33 esetében e=9, n=6 és így 9 !<= 2*6-4
 Tehát K33 nem síkbarajzolható.
 ```
-
-
-
+Egy gráf síkbarajzolhatóságán nyílván nem változtat, hogy ha:
+* Egy élet egy 2 hosszú úttal helyettesítünk. o-o --> o-o-o
+* Egy 2 fokú csúcsra illeszkedő éleket egybeolvasztunk és a csúcsot elhagyjuk. o-o-o --> o-o
+# Definíció
+```
+G és H gráfok topológikusan izomorfak, ha a fent említett transzformációk ismételt alkalmazásával
+izomorf gráfokba transzformálhatóak.
+```
+# Tétel: Kuratowski
+```
+Egy gráf akkor és csak akkor síkbarajzolható, ha nem tartalmaz olyan részgráfot,
+amely topológikusan izomorf K33-al vagy K5-el.
+```
