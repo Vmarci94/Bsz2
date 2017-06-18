@@ -9,8 +9,8 @@ hogy bármely két szomszédos csúcsának színe különböző legyen.
 ```
 ### Definíció
 ```
-Egy gráf kromatikus számának nevezzük az 𝓧(G) = k egész számot,
-ha a gráf k db színnel kiszínezhető, de k-1 színnel már nem.
+Egy gráf G gráf kromatikus számának nevezzük az 𝓧(G) = k pozitív egész számot,
+ha a G gráf k db színnel színezhető, de k-1 színnel már nem.
 Egy ilyen színezésnél az azonos színt kapott pontok halmazát "színosztálynak" nevezzük.
 ```
 *A definícióból következik, hogy csak egyszerű gráfok színezéséről van értelme beszélni.
