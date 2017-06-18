@@ -22,8 +22,8 @@ mint a “minimális független élek” (darab)száma.*
 
 ### Definíció
 ```
-Egy gráf teljes részgráfját klikknek nevezzük.
-A legnagyobb méretű klikket 𝓦(G)-vel jelöljük és a gráf klikk-számának nevezzük.
+Egy G gráf teljes részgráfját klikknek nevezzük.
+A legnagyobb méretű klikket 𝓦(G)-vel jelöljük és a G gráf klikk-számának nevezzük.
 Ahol méret alatt a csúcsszámot értjük.
 ```
 *A “gráf színezés” definíciója alapján, ha egy gráfban létezik klikk, akkor annak semelyik pontja nem lehet azonos színű. Ez alapján megfogalmazhatjuk az alábbi tételt.*
@@ -43,7 +43,7 @@ többre lehet még szükségünk, de kevesebbre semmi féle képpen sem.
 A "mohó színező" algoritmus a gráf csúcsait valamilyen szabály szerint rendezi.
 pl { v1, v2, v3 ... vi ... vn } i= {1, 2, ... n}. Majd vi-hez azt a legkissebb színt rendeli hozzá,
 amit a vi szomszlédai ( tehát { v1, v2, ..., vi-1 } nem használtak még fel.
-Érthető, hogy ha nem létezik ilyen megfelelő szín akkor új színt vezet be.
+Érthető, hogy ha nem létezik ennek megfelelő szín akkor új színt vezet be.
 ```
 Érdemes még megjegyezni, hogy
 * A kapot sínezés minősége első sorban függ a sorrendtől
