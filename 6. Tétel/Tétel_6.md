@@ -19,18 +19,7 @@ Továbbá érdemes megjegyezni, hogy nyilvánvalóan minden egyszerű gráf kisz
 legfeljebb a csúcsok darabszámával megegyező színnel. Tehát triviális,
 hogy 𝓧(Kn) = n és 𝓧(G) ≤ v(G) azaz a kromatikus szám legfeljebb akkora lehet,
 mint a “minimális független élek” (darab)száma.*
-### Tétel
-`Egy gráf akkor és csak akkor páros, ha 𝓧(G) = 2. (feltéve, hogy legalább egy éle van)`
-### Bizonyítás:
-```
-A bizonyítás nagyon egyszerű a páros gráfok definíciója alapján.
-Ugyanis ha G páros gráf, akkor pontjai két osztályba sorolhatóak.
-Ha ehhez a két osztályhoz rendelünk egy-egy színosztályt akkor épp 2 színnel színeztünk a gráfot.
-A páros gráf definíciója alapján, G gráfban csak a két osztály között futhat él
-(azaz csak olyan él létezik amelyiknek egyik végpontja az egyik osztályban, másik végpontja a másik osztályban van),
-tehát semelyik él két végpontja nem lehet azonos színű.
-Így 𝓧(G) épp 2, ezzel az állítást beláttuk.
-```
+
 ### Definíció
 ```
 Egy gráf teljes részgráfját klikknek nevezzük.
@@ -72,7 +61,31 @@ Legyenek p1, p2, . . . egy gráf csúcsai és { pi, pj }
 akkor és csak akkor legyen él G-ben, ha Ii ∩ Ij ≠ ∅.
 Az így előált gráfot intervallum gráfnak nevezzük
 ```
-
-
+### Intervallumgráfok optimális színezése
+```
+Színezzük a csúcsokat “mohó színező” algoritmussal,
+a csúcsoknak megfeleltethető intervallumok alapján felállított sorrendben
+balról jobbra haladva. Ekkor az algoritmus 𝓧(G) színnel színez.
+```
+### Definíció *Páros Gráf*
+```
+Egy gráfot páros gráfnak nevezünk, ha csúcsai két csúcshalmazra oszthatóak,
+úgy hogy él csak a két osztály között fut. Jele G = (A; B).
+A “teljes páros gráf” olyan G = (A; B) páros gráf,
+ahol a két csúcsosztály számossága megegyezik ( |A| = |B| ),
+és minden A béli csúcs össze van kötve minden B béli csúccsal. Jele Ka,b 
+```
+### Tétel
+`Egy gráf akkor és csak akkor páros, ha 𝓧(G) = 2. (feltéve, hogy legalább egy éle van)`
+### Bizonyítás:
+```
+A bizonyítás nagyon egyszerű a páros gráfok definíciója alapján.
+Ugyanis ha G páros gráf, akkor pontjai két osztályba sorolhatóak.
+Ha ehhez a két osztályhoz rendelünk egy-egy színosztályt akkor épp 2 színnel színeztünk a gráfot.
+A páros gráf definíciója alapján, G gráfban csak a két osztály között futhat él
+(azaz csak olyan él létezik amelyiknek egyik végpontja az egyik osztályban, másik végpontja a másik osztályban van),
+tehát semelyik él két végpontja nem lehet azonos színű.
+Így 𝓧(G) épp 2, ezzel az állítást beláttuk.
+```
 
 
